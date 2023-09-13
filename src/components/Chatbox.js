@@ -23,7 +23,7 @@ function Chatbox({selectedChat, message, setMessage, setMobileView}) {
         <div className="flex items-center">
           <label tabIndex={0} className="btn btn-ghost btn-circle avatar">
             <div className="w-10 rounded-full">
-              <img src={selectedChat.users.length > 0 ? index(selectedChat.users).pic: ""} />
+              <img src={selectedChat.users.length > 0 ? index(selectedChat.users).pic: ""} alt="image"/>
             </div>
           </label>
           <h1 className="px-3 font-bold text-2xl">{selectedChat.users.length > 0 ? index(selectedChat.users).name : ""}</h1>

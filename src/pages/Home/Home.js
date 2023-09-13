@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import { Navigate, useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
 function Home() {
 
@@ -19,6 +19,7 @@ function Home() {
       {
         navigate("/chat");
       }
+      // eslint-disable-next-line
     },[])
 
   return (

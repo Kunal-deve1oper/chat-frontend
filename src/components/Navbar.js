@@ -13,13 +13,13 @@ function Navbar({pic}) {
   return (
     <div className="navbar p-0 bg-black ">
       <div className="flex-1">
-        <a className="btn btn-ghost normal-case text-xl">Chatter</a>
+        <p className="btn btn-ghost normal-case text-xl">Chatter</p>
       </div>
       <div className="flex-none gap-2">
         <div className="dropdown dropdown-end">
           <label tabIndex={0} className="btn btn-ghost btn-circle avatar">
             <div className="w-10 rounded-full">
-              <img src={pic} />
+              <img src={pic} alt="image"/>
             </div>
           </label>
           <ul
