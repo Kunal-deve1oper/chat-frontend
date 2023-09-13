@@ -9,7 +9,7 @@ function Message({data, id}) {
     <div className={`chat ${userCred._id === data.sender._id ? "chat-end": "chat-start"} `}>
       <div className="chat-image avatar">
         <div className="w-10 rounded-full">
-          <img src={data.sender.pic} alt='image'/>
+          <img src={data.sender.pic} alt='profile pic'/>
         </div>
       </div>
       <div className="chat-header">
